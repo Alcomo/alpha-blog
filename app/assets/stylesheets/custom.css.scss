@@ -1,4 +1,3 @@
-$navbar-default-bg: #5bc0de;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -17,14 +16,24 @@ $navbar-default-bg: #5bc0de;
   text-decoration: none;
 }
 
+.myNavbar {
+  background-color: #000;
+}
+
+.myNavbar li a {
+  color: #777;
+}
+
 .center {
   text-align: center;
 }
 
 .jumbotron {
-  background-image: asset-url('blogimg.jpg');
-  background-size: cover;
-  height: 550px;
+  background-image: asset-url('world.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 450px;
+  margin-bottom: 50px;
 }
 
 .jumbotron h1 {
@@ -68,6 +77,17 @@ $navbar-default-bg: #5bc0de;
 .listing {
   list-style: none;
   padding-left: 0;
+}
+
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
 
 .footer {
